@@ -1,0 +1,45 @@
+{% extends "header.html" %}
+ {% block content %}
+
+
+
+<h1>Register Here:</h1>
+<div class="card">
+    <div class="cardbody">
+        <p>Register Form:</p>
+        <form action="" method="POST">
+            {{ form.hidden_tag() }}:
+            <fieldset>
+                <label for="username">Username</label>
+                {{form.username(class="form-control") }}
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                {{form.email(class="form-control") }}
+            </fieldset>
+            <fieldset>
+                <label for="Password">Password</label>
+                {{form.password(class="form-control") }}
+            </fieldset>
+            <fieldset>
+                <label for="Confirm password">Confirm Password</label>
+                {{form.confirm_pass(class="form-control") }}
+            </fieldset>
+
+            {{form.submit(class="btn btn-primary")}}
+
+        </form>
+
+    </div>
+
+
+
+
+</div>
+
+{% endblock content %}
+
+
+<body>
+    
+</html>

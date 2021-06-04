@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capstone Project</title>
+    <!-- add the css file below-->
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <!-- header section starts  -->
+
+    <header>
+        <nav class="nav navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="{{ url_for('home') }}">Timeless Travels</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('blog') }}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navar-nav m1-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('register') }}">Register</a>
+                    </li>
+                </ul>
+            </div>
+
+            </form>
+        </nav>
+    </header>
+
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+
+        </nav>
+        <!-- this search button needs to go to the right side of the page  -->
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+    </header>
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+
+    </nav>
+    <!-- this search button needs to go to the right side of the page  -->
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+</header>
+
+<html>
+
+<body>
+
+
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <!--image size formatting-->
+            <img class="spain" src="../static/images/spain.jpg" width="100px" height="100px"></img>
+
+                                            <!---- image of spain goes here -->
+                <div class="content">
+                    <h3>Spain</h3>
+                    <p>Barcelona, Girona, Mansera, Montserrat
+                        As I walked down the Gothic Quarter, who wouldn't fall in love with the architecture, the food,
+                        and the vibe in general.
+                        It felt like home.
+                    </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">-->
+                                                  <!---- image of spain goes here -->
+
+                <div class="content">
+                    <h3>Ireland</h3>
+                    <p>Dublin and Northern Ireland
+                        This country is definitely on my list move to for a period of time. The scenery, the landscapes
+                        and calmless.
+                        Just over all the peace you feel just sitting on the cliffs watching a sunset is priceless.
+                    </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                                                                                                                <!---- image of spain goes here -->
+
+                <div class="content">
+                    <h3>Italy</h3>
+                    <p>Rome, Venice, Murano, Naples
+                        Of course, the first thing that comes to mind is FOOD. When in Rome, try the restaurants that
+                        hole in the walls.
+                        Never have I ever tasted a lasagna, broccolini pasta, calamari so amazing. The chef was an old
+                        man cooking for over
+                        50 years. Needless to say, I've gone back to this restaurant twice! </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                                                                                                                <!---- image of spain goes here -->
+
+                <div class="content">
+                    <h3>Nassau</h3>
+                    <p>Can't forget about the beaches now can we. Nassau has some of the clearest waters I have ever
+                        seen. </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">                                   an image of Cabo goes here 
+                <div class="content">
+                    <h3>Cabo San Lucas</h3>
+                    <p>Street tacos. WOW! Of course the beach was beyond amazing. The arches were beautiful and the
+                        water felt like heaven.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
+            <!--gallery section ends -->

@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capstone Project</title>
+    <!-- add the css file below-->
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <!-- header section starts  -->
+
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+
+        </nav>
+        <!-- this search button needs to go to the right side of the page  -->
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+    </header>
+
+<h4>Login</h4>
+<hr />
+<div class="row">
+    <div class="col-6 offset-3">
+        <form-action="" method="POST">
+            <div class="form-group">
+                <input type="email" class="form-control" name="user_email" placeholder="Type your email here..." />
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="user_password" placeholder="Type your password here..." />
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                        Remember Me
+                    </label>
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success btn-block" value="login" />
+        </form->
+    </div>
+</div>
+{% endblock content %}
